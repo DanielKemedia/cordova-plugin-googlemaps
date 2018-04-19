@@ -288,7 +288,7 @@ The native map view is faster, use less network usage, display 3D views, and eve
     <platform name="ios">
 
         <preference name="API_KEY_FOR_IOS" />
-        <preference name="LOCATION_WHEN_IN_USE_DESCRIPTION" default="This app wants to get your location while this app runs only."/>
+        <preference name="LOCATION_WHEN_IN_USE_DESCRIPTION" default="Your current location will be displayed on the map, to guide you while following the routes."/>
         <preference name="LOCATION_ALWAYS_USAGE_DESCRIPTION" default="This app wants to get your location always, even this app runs in background." />
 
         <js-module name="googlemaps-cdv-plugin" src="www/googlemaps-cdv-plugin.js">
